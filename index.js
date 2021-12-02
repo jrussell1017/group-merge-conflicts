@@ -1,6 +1,5 @@
-
-function addNums(...nums) {
-    if (!nums.every((num) => Number.isNumber(num)))
+function formatNumber(...count) {
+    if (!count.every((numA) => Number.isNumber(numA)))
       throw "All arguments must be numbers.";
-    return nums.reduce((num1, num2) => num1 + num2);
+    return count.reduce((numA, numB) => numA + numB);
   }
