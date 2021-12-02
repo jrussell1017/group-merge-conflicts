@@ -1,6 +1,6 @@
 
-function addNums(...nums) {
-    if (!nums.every((num) => Number.isNumber(num)))
+function nums(...numbers) {
+    if (!numbers.every((numbers1) => Number.isNumber(numbers1)))
       throw "All arguments must be numbers.";
-    return nums.reduce((num1, num2) => num1 + num2);
+    return numbers.reduce((numbers1, numbers2) => numbers1 + numbers2);
   }
